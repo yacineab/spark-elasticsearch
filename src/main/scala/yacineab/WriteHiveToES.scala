@@ -9,7 +9,7 @@ object WriteHiveToES {
 
   def main(args: Array[String]): Unit = {
 
-    val esNodes = "myElasticSearchNode"
+    val esNodes = "localhost"
     val esPort = "9200"
 
     //set Kerberos configuration
