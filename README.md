@@ -13,7 +13,7 @@ This project will help you read your data from Hive and write it as index to Ela
 ```
 sbt : 1.1.2
 Apache Spark : 1.6.2
-ElasticSearch : 5.4.3
+Elasticsearch : 5.4.3
 HDP cluster : 2.5.3
 ```
 
