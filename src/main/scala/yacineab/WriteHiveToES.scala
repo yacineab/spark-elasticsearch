@@ -18,6 +18,7 @@ object WriteHiveToES {
 
     // Spark & authentication configuration
     val conf = new SparkConf().setAppName("spark-elasticsearch")
+    // kerberos configuration
     conf.set("spark.hadoop.hadoop.security.authentication", "kerberos")
     conf.set("spark.hadoop.hadoop.security.authorization", "true")
     conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
