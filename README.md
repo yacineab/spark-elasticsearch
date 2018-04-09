@@ -42,7 +42,9 @@ spark-submit \
 --master yarn --deploy-mode cluster \
 --num-executors 3 --driver-memory 4g --executor-memory 8g --executor-cores 1 \
 --files /usr/hdp/current/spark-client/conf/hive-site.xml,/usr/hdp/current/spark-client/conf/core-site.xml \
---jars /usr/hdp/current/spark-client/lib/datanucleus-api-jdo-3.2.6.jar,/usr/hdp/current/spark-client/lib/datanucleus-rdbms-3.2.9.jar,/usr/hdp/current/spark-client/lib/datanucleus-core-3.2.10.jar \
+--jars /usr/hdp/current/spark-client/lib/datanucleus-api-jdo-3.2.6.jar, \
+/usr/hdp/current/spark-client/lib/datanucleus-rdbms-3.2.9.jar, \
+/usr/hdp/current/spark-client/lib/datanucleus-core-3.2.10.jar \
 --queue [queueName] /path/to/Your/Jar/POCSparkHiveES-assembly-0.1.jar
 ```
 
