@@ -51,3 +51,6 @@ spark-submit \
 
 ## Built With
 * [sbt](https://www.scala-sbt.org/) - Dependency Management and deployment
+
+## More about this project
+Find more details about this project in this [article](http://yacine.aitouarab.com/blog/sparkes.html)
