@@ -50,4 +50,4 @@ spark-submit \
 ```
 
 ## Built With
-*[sbt] (https://www.scala-sbt.org/) - Dependency Management and deployment
+* [sbt](https://www.scala-sbt.org/) - Dependency Management and deployment
