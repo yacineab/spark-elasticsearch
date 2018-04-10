@@ -1,12 +1,13 @@
 # Project Name
 
-Write Hive Data To ES in a kerberized Cluster
-Read Data from Hive (hdfs) and write it to ElasticSearch cluster using Apache Spark
+Write Hive Data To ES in a kerberized Cluster.
+
+Read Data from Hive (hdfs) and write it to Elasticsearch cluster using Apache Spark
 
 
 ## Getting Started
 
-This project will help you read your data from Hive and write it as index to ElasticSearch in a kerberized Cluster.
+This project will help you read your data from Hive and write it as index to Elasticsearch in a kerberized Cluster.
 
 ### Prerequisites
 
